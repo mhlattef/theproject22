@@ -1,0 +1,367 @@
+.righteous {
+    font-family: "Righteous", sans-serif;
+    font-style: normal;
+}
+
+
+.raleway {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: 200; */
+    font-style: normal;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+article {
+    flex: 1;
+    /* background-image: url("/images/bannerPattern0.png"); */
+
+}
+
+#banner {
+    width: 100%;
+    height: 5rem;
+    background-color: #000000;
+    display: grid;
+    /* background-image: url("/images/bannerPattern4.png"); */
+
+
+
+}
+
+#bannerText {
+    font-size: 2rem;
+    /* color: #1f0a69; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    /* text-shadow: 0 0 1.5px #181616; */
+    font-weight: 250;
+
+}
+
+#title {
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 2rem;
+    color: #141313;
+
+}
+
+#navBar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    background-color: #141313;
+
+}
+
+#navList {
+    display: grid;
+    width: 50%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-weight: bold; */
+    color: rgb(255, 255, 255);
+    font-size: .9rem;
+}
+
+#loginPageButton {
+    border: none;
+    background-color: lightgreen;
+    border-radius: 5px;
+    color: rgb(24, 21, 21);
+}
+
+#logoutPageButton {
+    border: none;
+    background-color: red;
+    border-radius: 5px;
+    color: rgb(247, 244, 244);
+
+}
+
+.navLinks {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+#loginDivContainer {
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    /* align-items: center;
+    justify-content: center;
+    align-self: center; */
+    /* background-color: black;  */
+    /* width:66%; */
+
+}
+
+#loginDiv {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.8fr 0.2fr 1fr;
+    margin: 0;
+    padding: 2rem;
+    padding-top: 0;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 25rem;
+    height: 25rem;
+    /* background-color: black; */
+    
+
+}
+
+
+
+#loginText {
+    padding: 2.5rem;
+    padding-bottom: 1rem;
+    grid-column: span 2;
+    /* grid-row: span 1; */
+    margin: 0%;
+    height: min-content;
+}
+
+#wrongPasswordParagraph {
+    grid-column: span 2;
+    color: transparent;
+    user-select: none;
+    padding-top: 0%;
+    margin-top: 0%;
+    font-size: .9rem;
+    color: red;
+    /* color: transparent;
+    user-select: none; */
+}
+
+#loginForm {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+
+#usernameInput {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+
+}
+
+#usernameLabel {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+#passwordInput {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+#passwordLabel {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+
+}
+
+#loginSubmitButton {
+    border-style: solid;
+    font-weight: 550;
+    font-size: 1rem;
+    padding: .4rem;
+    border-radius: 5px;
+    width: min-content;
+    grid-column: span 2;
+    width: min-content;
+    align-self: center;
+    justify-self: center;
+    margin-top: 10px;
+
+
+
+}
+
+#or {
+    margin: 3rem;
+}
+
+#signupButton {
+    width: 6rem;
+    height: 3rem;
+    border-radius: 5px;
+    margin-bottom: 7rem;
+    border-style: solid;
+    font-weight: 550;
+    font-size: 1rem;
+
+}
+
+
+/* HOME PAGE CSS */
+
+
+
+#bodyParagraphDiv {
+    width: 100%;
+    
+}
+
+#bodyParagraph {
+    font-size: 1.5rem;
+    font-weight: 300;
+    width: 70%;
+    font-optical-sizing: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    text-align: justify;
+
+}
+
+#footer {
+    width: 100%;
+    background-color: rgb(30, 32, 32);
+    color: white;
+    margin-top: auto;
+    font-size: .8rem;
+}
+
+
+
+@media (max-width: 433px) {
+    #banner {
+        width: 100%;
+        height: 5rem;
+        display: grid;
+    }
+
+    #bannerText {
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navItem {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* font-weight: bold; */
+        /* color: rgb(255, 255, 255); */
+        font-size: 10px;
+    }
+
+    #bannerText {
+        font-size: 2rem;
+        /* color: #ffffff; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    #title {
+        font-size: 1.5rem;
+    }
+
+    #loginDivContainer {
+        padding-top: .5rem;
+    }
+
+    #loginDiv {
+        padding: .5rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    #loginText {
+        padding: .6rem;
+        padding-bottom: 0.3rem;
+    }
+
+    #wrongPasswordParagraph {
+        font-size: .3rem;
+    }
+
+
+    #usernameInput {
+        margin-bottom: 0.1rem;
+        font-size: 0.5rem;
+    }
+
+    #usernameLabel {
+        margin-bottom: 0.1rem;
+        font-size: 0.5rem;
+    }
+
+    #passwordInput {
+        margin-bottom: 0.3rem;
+        font-size: 0.5rem;
+    }
+
+    #passwordLabel {
+        margin-bottom: 0.3rem;
+        font-size: 0.5rem;
+    }
+
+    #loginSubmitButton {
+        padding: .1rem;
+        font-size: .4rem;
+
+    }
+
+    #or {
+        margin: .7rem;
+    }
+
+    #signupButton {
+        width: 3rem;
+        height: 1.5rem;
+        margin-bottom: 2rem;
+        font-size: .4rem;
+
+    }
+
+    #footer {
+        font-size: .4rem;
+    }
+
+    #bodyParagraph {
+        font-size: .6rem;    
+        width: 88%;
+
+    }
+
+
+}
